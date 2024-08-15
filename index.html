@@ -6,7 +6,15 @@
   <title>Day 2 - Modal</title>
   <link href="./src/output.css" rel="stylesheet">
 </head>
-<body>
+<body id="body" class="h-screen w-screen">
+  <div class="absolute right-5 bottom-5 animate-bounce">
+    <button id="open-modal" class="w-12 h-12 rounded-full bg-black text-white text-4xl flex justify-center">+</button>
+  </div>
 
+  <div id="modal" class="hidden absolute flex flex-col justify-center items-center bg-purple-600 w-1/2 h-1/2 m-auto top-0 left-0 right-0 bottom-0">
+    <p>This is a modal</p>
+    <button id="close-modal" class="hover:bg-red-600 mt-4 border-2 border-white p-2.5 text-white">Close</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
