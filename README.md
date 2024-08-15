@@ -1,2 +1,1 @@
-# day-2-modal
- 
+# Day 2 - Modal 
